@@ -8,7 +8,6 @@ import androidx.compose.material3.MaterialTheme
 import androidx.compose.material3.Surface
 import androidx.compose.ui.Modifier
 import com.wings.dialogs.ui.theme.WingsDialogsTheme
-import com.wings.wings_dialogs.SimpleLDDialog
 
 class MainActivity : ComponentActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -20,7 +19,7 @@ class MainActivity : ComponentActivity() {
                     modifier = Modifier.fillMaxSize(),
                     color = MaterialTheme.colorScheme.background
                 ) {
-                    SimpleLDDialog(horizontalDialog = true,onDismiss = { })
+                    //SimpleLDDialog(horizontalDialog = true,onDismiss = { })
                 }
             }
         }
