@@ -65,7 +65,7 @@ publishing{
         register<MavenPublication>("release"){
             groupId = "com.github.harshangvirani"
             artifactId = "wings-dialogs"
-            version = "0.0.1"
+            version = "1.0"
 
             afterEvaluate{
                 from(components["release"])
