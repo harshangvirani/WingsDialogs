@@ -20,7 +20,6 @@ import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.unit.dp
 import com.wings.dialogs.ui.theme.WingsDialogsTheme
-import com.wings.wings_dialogs.*
 
 class MainActivity : ComponentActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -61,6 +60,6 @@ fun SimpleLoadingDialog(){
 
     if (isShow) {
         //SimpleLDDialog(onDismiss = { isShow = false }, horizontalDialog = true)
-        AnimatedLDDialog(onDismiss = { isShow = false }, horizontalDialog = false)
+        //AnimatedLDDialog(onDismiss = { isShow = false }, horizontalDialog = false)
     }
 }
