@@ -24,6 +24,7 @@ import androidx.compose.ui.unit.dp
 import androidx.compose.ui.window.Dialog
 import com.airbnb.lottie.compose.LottieAnimation
 import com.airbnb.lottie.compose.LottieCompositionSpec
+import com.airbnb.lottie.compose.LottieConstants
 import com.airbnb.lottie.compose.animateLottieCompositionAsState
 import com.airbnb.lottie.compose.rememberLottieComposition
 
@@ -37,11 +38,14 @@ fun AnimatedLDDialog(
     }
 
     val composition by rememberLottieComposition(
-        spec = LottieCompositionSpec.RawRes(R.raw.circular_progress)
+        spec = LottieCompositionSpec.RawRes(R.raw.loading_animation)
     )
     val progress by animateLottieCompositionAsState(
         composition = composition,
+        iterations = LottieConstants.IterateForever,
         speed = isSpeed,
+        isPlaying = true,
+        restartOnPlay = false
     )
 
     Dialog(

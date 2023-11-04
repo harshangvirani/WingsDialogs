@@ -68,7 +68,7 @@ dependencies {
     debugImplementation("androidx.compose.ui:ui-test-manifest:1.5.4")
 
     //Wings Dialogs
-    //implementation("com.github.harshangvirani:WingsDialogs:1.0")
+    implementation("com.github.harshangvirani:WingsDialogs:1.1")
 
     //Lottie Animation
     implementation("com.airbnb.android:lottie-compose:6.1.0")
