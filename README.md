@@ -19,7 +19,7 @@ dependencyResolutionManagement {
  ### Step 2. Add the dependency
  ```gradle
  dependencies {
-	        implementation 'com.github.harshangvirani:WingsDialogs:1.0'
+	        implementation 'com.github.harshangvirani:WingsDialogs:1.1'
 	}
  ```
 
